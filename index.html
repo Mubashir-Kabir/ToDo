@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <script
+      src="https://kit.fontawesome.com/4acf222c6e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-center text-6xl font-bold mt-10 mb-5">TO DO</h1>
+    <hr />
+    <section class="bg-sky-200 p-5 mt-8 text-center">
+      <input
+        type="text"
+        id="inputField"
+        class="w-1/2 rounded-md px-4 py-1 block mx-auto"
+        placeholder="Add item"
+      />
+      <button
+        class="bg-red-500 py-2 px-6 text-white mt-3 rounded-md hover:bg-red-400"
+        id="addBtn"
+      >
+        Add
+      </button>
+    </section>
+
+    <section class="mt-4">
+      <div class="w-3/4 p-4 bg-sky-200 mx-auto rounded-md">
+        <ul id="parent">
+          <!-- <li class="flex justify-between items-center border-b-2 border-white">
+            <span
+              ><input type="checkbox" name="" id="" class="mr-4" />poraite
+              jaoya</span
+            >
+            <button
+              class="bg-red-500 my-2 py-1 px-3 text-white rounded-md hover:bg-red-400"
+            >
+              Remove
+            </button>
+          </li> -->
+        </ul>
+      </div>
+      <button
+        id="clear"
+        class="bg-red-500 my-2 mx-auto block py-2 px-6 text-white rounded-md hover:bg-red-400"
+      >
+        Clear
+      </button>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
